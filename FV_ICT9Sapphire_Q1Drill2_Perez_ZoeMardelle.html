@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        section{
+            background-color: #b4d1ef;
+            padding: 20px;
+            border-radius: 12px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1,p{
+            text-align: center;
+        }
+        body{
+            font-family: Consolas;
+        }
+        input[type="text"], select, textarea, input[type="submit"] {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        input[type="submit"]{
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+        <br>
+        <p>Rate movies here!</p>
+    </header>
+
+    <br>
+
+    <section>
+    <form>
+        <img style="display: block; height: 100px; width: 100px; margin: 0 auto; " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGgiwM4GwOdaOBnMbZ0DHda226wFw5ixp8x9eiSJLI4g&s=10" alt="logo">
+        <br>
+        <label for="movie">Movie title</label>
+        <br>
+        <input type="text" id="movie" name="movie" placeholder="Type here...">
+
+        <label for="genre">Genre/s</label>
+        <br>
+        <input type="checkbox" id="genre1" name="genre1">
+            <label for="genre1">Action</label>
+        <input type="checkbox" id="genre2" name="genre2">
+             <label for="genre2">Comedy</label>
+        <input type="checkbox" id="genre3" name="genre3">
+              <label for="genre3">Romance</label>
+        <input type="checkbox" id="genre4" name="genre4">
+              <label for="genre4">Drama</label>
+        <input type="checkbox" id="genre5" name="genre5">
+              <label for="genre5">Sci-Fi</label>
+        <input type="checkbox" id="genre6" name="genre6">
+              <label for="genre6">Horror</label>
+        <input type="checkbox" id="genre7" name="genre7">
+              <label for="genre7">Thriller</label>
+
+        <br>
+
+        <label for="rate">Rating</label>
+        <br>
+        <input type="radio" id="rate1" name="rate">
+            <label for="rate1">⭐️</label>
+        <input type="radio" id="rate2" name="rate">
+            <label for="rate2">⭐️⭐️</label>
+        <input type="radio" id="rate3" name="rate">
+            <label for="rate3">⭐️⭐️⭐️</label>
+        <input type="radio" id="rate4" name="rate">
+            <label for="rate4">⭐️⭐️⭐️⭐️</label>
+        <input type="radio" id="rate5" name="rate">
+            <label for="rate5">⭐️⭐️⭐️⭐️⭐️</label>
+
+        <br>
+        <textarea id="review" placeholder="Write a review" rows="4" cols="40"></textarea>
+
+        <br>
+        <input type="submit" id="submit" value="Submit Review">
+
+        <br>
+        Click <a href="https://www.imdb.com/title/tt0120382/" target="_blank">here</a> for more movie details. 
+    </form>
+    </section>
+</body>
+</html>
